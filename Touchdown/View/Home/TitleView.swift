@@ -14,7 +14,7 @@ struct TitleView: View {
     //MARK:- Body
     var body: some View {
         HStack {
-            Text("Helmet")
+            Text("Helmets")
                 .font(.largeTitle)
                 .fontWeight(.bold)
             
@@ -29,7 +29,7 @@ struct TitleView: View {
     //MARK:- Preview
 struct TitleView_Previews: PreviewProvider {
     static var previews: some View {
-        TitleView(title: "Helmet")
+        TitleView(title: "Helmets")
             .previewLayout(.sizeThatFits)
             .background(colorBackground)
     }
