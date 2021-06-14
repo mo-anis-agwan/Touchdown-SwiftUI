@@ -46,6 +46,12 @@ struct ContentView: View {
                         }) //: VGrid
                         .padding(15)
                         
+                        // Brands Title View
+                        TitleView(title: "Brands")
+                        
+                        // Brands HGrid
+                        BrandGridView()
+                        
                         //Footer
                         FooterView()
                             .padding(.horizontal)

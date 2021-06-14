@@ -14,7 +14,7 @@ struct TitleView: View {
     //MARK:- Body
     var body: some View {
         HStack {
-            Text("Helmets")
+            Text(title)
                 .font(.largeTitle)
                 .fontWeight(.bold)
             
