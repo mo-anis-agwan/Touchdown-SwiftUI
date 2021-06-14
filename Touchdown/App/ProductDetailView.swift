@@ -15,6 +15,9 @@ struct ProductDetailView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 5, content: {
             // Navbar
+            NavbarDetailView()
+                .padding(.horizontal)
+                .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
             
             // Header
             Text(sampleProduct.name)
