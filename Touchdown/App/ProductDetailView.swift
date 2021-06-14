@@ -24,6 +24,8 @@ struct ProductDetailView: View {
                 .padding(.horizontal)
             
             // Detail Top part
+            TopPartDetailView()
+                .padding(.horizontal)
             // Detail Bottom Part
             // Ratings + Sizes
             // Description
