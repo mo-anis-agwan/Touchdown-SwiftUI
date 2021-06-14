@@ -20,7 +20,8 @@ struct ProductDetailView: View {
                 .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
             
             // Header
-            Text(sampleProduct.name)
+            HeaderDetailView()
+                .padding(.horizontal)
             
             // Detail Top part
             // Detail Bottom Part

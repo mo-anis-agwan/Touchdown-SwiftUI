@@ -35,6 +35,8 @@
 		88DA4366267780D5008035B2 /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DA4365267780D5008035B2 /* BrandGridView.swift */; };
 		88DA4368267783AA008035B2 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DA4367267783AA008035B2 /* ProductDetailView.swift */; };
 		88DA436A267787BD008035B2 /* NavbarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DA4369267787BC008035B2 /* NavbarDetailView.swift */; };
+		88DA436C26778CE8008035B2 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DA436B26778CE8008035B2 /* HeaderDetailView.swift */; };
+		88DA436E26778E78008035B2 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DA436D26778E78008035B2 /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		88DA4365267780D5008035B2 /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
 		88DA4367267783AA008035B2 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		88DA4369267787BC008035B2 /* NavbarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavbarDetailView.swift; sourceTree = "<group>"; };
+		88DA436B26778CE8008035B2 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		88DA436D26778E78008035B2 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				88DA4369267787BC008035B2 /* NavbarDetailView.swift */,
+				88DA436B26778CE8008035B2 /* HeaderDetailView.swift */,
+				88DA436D26778E78008035B2 /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -279,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				882CC3CB2675606C007160A9 /* CodableBundleExtension.swift in Sources */,
+				88DA436C26778CE8008035B2 /* HeaderDetailView.swift in Sources */,
+				88DA436E26778E78008035B2 /* TopPartDetailView.swift in Sources */,
 				880A68C0265905F2001E2359 /* ContentView.swift in Sources */,
 				88A03DF12675062100B14B8C /* LogoView.swift in Sources */,
 				880A68DD26590D6D001E2359 /* FooterView.swift in Sources */,
