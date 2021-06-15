@@ -39,6 +39,8 @@
 		88DA436A267787BD008035B2 /* NavbarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DA4369267787BC008035B2 /* NavbarDetailView.swift */; };
 		88DA436C26778CE8008035B2 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DA436B26778CE8008035B2 /* HeaderDetailView.swift */; };
 		88DA436E26778E78008035B2 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DA436D26778E78008035B2 /* TopPartDetailView.swift */; };
+		88E8E0C22678B5E00081DA54 /* QuantityFavDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8E0C12678B5E00081DA54 /* QuantityFavDetailView.swift */; };
+		88E8E0C42678BCEF0081DA54 /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8E0C32678BCEF0081DA54 /* AddToCartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		88DA4369267787BC008035B2 /* NavbarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavbarDetailView.swift; sourceTree = "<group>"; };
 		88DA436B26778CE8008035B2 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
 		88DA436D26778E78008035B2 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
+		88E8E0C12678B5E00081DA54 /* QuantityFavDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavDetailView.swift; sourceTree = "<group>"; };
+		88E8E0C32678BCEF0081DA54 /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,8 @@
 				88DA436B26778CE8008035B2 /* HeaderDetailView.swift */,
 				88DA436D26778E78008035B2 /* TopPartDetailView.swift */,
 				8823A6B52677F0C900CB7B65 /* RatingSizesDetailView.swift */,
+				88E8E0C12678B5E00081DA54 /* QuantityFavDetailView.swift */,
+				88E8E0C32678BCEF0081DA54 /* AddToCartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -296,7 +302,9 @@
 				880A68C0265905F2001E2359 /* ContentView.swift in Sources */,
 				88A03DF12675062100B14B8C /* LogoView.swift in Sources */,
 				880A68DD26590D6D001E2359 /* FooterView.swift in Sources */,
+				88E8E0C22678B5E00081DA54 /* QuantityFavDetailView.swift in Sources */,
 				882CC3CD26756301007160A9 /* FeaturedItemView.swift in Sources */,
+				88E8E0C42678BCEF0081DA54 /* AddToCartDetailView.swift in Sources */,
 				88DA436026769121008035B2 /* ProductItemView.swift in Sources */,
 				88DA4366267780D5008035B2 /* BrandGridView.swift in Sources */,
 				8823A6B62677F0C900CB7B65 /* RatingSizesDetailView.swift in Sources */,

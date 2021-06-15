@@ -42,10 +42,16 @@ struct ProductDetailView: View {
                         .font(.system(.body, design: .rounded))
                         .foregroundColor(.gray)
                         .multilineTextAlignment(.leading)
-                    // Quantity + Favs
-                    // Add to cart
-                    Spacer()
+                    
                 }) //: ScrollView
+                
+                // Quantity + Favs
+                QuantityFavDetailView()
+                    .padding(.vertical, 10)
+                
+                // Add to cart
+               AddToCartDetailView()
+                .padding(.bottom, 20)
                 
             }) //: VStack
             .padding(.horizontal)
