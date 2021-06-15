@@ -41,6 +41,7 @@
 		88DA436E26778E78008035B2 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DA436D26778E78008035B2 /* TopPartDetailView.swift */; };
 		88E8E0C22678B5E00081DA54 /* QuantityFavDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8E0C12678B5E00081DA54 /* QuantityFavDetailView.swift */; };
 		88E8E0C42678BCEF0081DA54 /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8E0C32678BCEF0081DA54 /* AddToCartDetailView.swift */; };
+		88E8E0C62678C3D90081DA54 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8E0C52678C3D90081DA54 /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		88DA436D26778E78008035B2 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 		88E8E0C12678B5E00081DA54 /* QuantityFavDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavDetailView.swift; sourceTree = "<group>"; };
 		88E8E0C32678BCEF0081DA54 /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		88E8E0C52678C3D90081DA54 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 			children = (
 				880A68D826590CCB001E2359 /* Constant.swift */,
 				8823A6B32677EE5E00CB7B65 /* CustomShape.swift */,
+				88E8E0C52678C3D90081DA54 /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				882CC3CF26756585007160A9 /* FeaturedTabView.swift in Sources */,
 				88DA436A267787BD008035B2 /* NavbarDetailView.swift in Sources */,
 				8823A6B42677EE5E00CB7B65 /* CustomShape.swift in Sources */,
+				88E8E0C62678C3D90081DA54 /* Shop.swift in Sources */,
 				882CC3C926755DC2007160A9 /* PlayerModel.swift in Sources */,
 				88DA436226777F57008035B2 /* BrandModel.swift in Sources */,
 				88DA435C26768C4F008035B2 /* TitleView.swift in Sources */,
