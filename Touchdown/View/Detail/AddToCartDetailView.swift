@@ -27,8 +27,8 @@ struct AddToCartDetailView: View {
         .background(
             Color(
                 red: shop.selectedProduct?.red ?? sampleProduct.red,
-                green: shop.selectedProduct?.red ?? sampleProduct.green,
-                blue: shop.selectedProduct?.red ?? sampleProduct.blue
+                green: shop.selectedProduct?.green ?? sampleProduct.green,
+                blue: shop.selectedProduct?.blue ?? sampleProduct.blue
             )
         )
         .clipShape(Capsule())
